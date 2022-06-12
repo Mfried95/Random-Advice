@@ -26,6 +26,7 @@ main{
     margin: 5em auto;
     border-radius: .7em;
     text-align: center;
+    position: relative;
 }
 
 img{
@@ -35,6 +36,8 @@ img{
 }
 
 .advice-number{
+    display: flex;
+    justify-content: center;
     padding: 2em 0em;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -42,9 +45,13 @@ img{
     color: hsl(150, 100%, 66%);
 }
 
+.number{
+    margin-left: .5em;
+}
+
 .advice{
+    height: 6.5em;
     font-size: 1.5em;
-    margin-bottom: 1.25em;
 }
 
 
